@@ -1,9 +1,9 @@
-package com.yupi.yupicturebackend.service.impl;
+package com.hajimi.yupicturebackend.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yupi.yupicturebackend.model.entity.User;
-import com.yupi.yupicturebackend.service.UserService;
-import com.yupi.yupicturebackend.mapper.UserMapper;
+import com.hajimi.yupicturebackend.model.entity.User;
+import com.hajimi.yupicturebackend.service.UserService;
+import com.hajimi.yupicturebackend.mapper.UserMapper;
 import org.springframework.stereotype.Service;
 
 /**

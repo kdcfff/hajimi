@@ -1,6 +1,6 @@
-package com.yupi.yupicturebackend.service;
+package com.hajimi.yupicturebackend.service;
 
-import com.yupi.yupicturebackend.model.entity.User;
+import com.hajimi.yupicturebackend.model.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

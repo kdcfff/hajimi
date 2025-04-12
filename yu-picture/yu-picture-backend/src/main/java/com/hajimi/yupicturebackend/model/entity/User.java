@@ -1,4 +1,4 @@
-package com.yupi.yupicturebackend.model.entity;
+package com.hajimi.yupicturebackend.model.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 

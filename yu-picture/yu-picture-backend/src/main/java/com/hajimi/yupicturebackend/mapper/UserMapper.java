@@ -1,6 +1,6 @@
-package com.yupi.yupicturebackend.mapper;
+package com.hajimi.yupicturebackend.mapper;
 
-import com.yupi.yupicturebackend.model.entity.User;
+import com.hajimi.yupicturebackend.model.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

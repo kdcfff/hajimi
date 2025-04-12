@@ -1,6 +1,6 @@
-package com.yupi.yupicturebackend.common;
+package com.hajimi.yupicturebackend.common;
 
-import com.yupi.yupicturebackend.exception.ErrorCode;
+import com.hajimi.yupicturebackend.exception.ErrorCode;
 import lombok.Data;
 
 import java.io.Serializable;
