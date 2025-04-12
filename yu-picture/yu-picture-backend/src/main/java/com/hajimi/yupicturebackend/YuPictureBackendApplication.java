@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @SpringBootApplication
-@MapperScan("com.haijimi.yupicturebackend.mapper")
+@MapperScan("com.hajimi.yupicturebackend.mapper")
 @EnableAspectJAutoProxy(exposeProxy = true)
 public class YuPictureBackendApplication {
 
