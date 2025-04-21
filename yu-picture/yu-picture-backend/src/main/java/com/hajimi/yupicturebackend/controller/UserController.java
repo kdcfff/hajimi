@@ -121,7 +121,7 @@ public class UserController {
     /**
      * 分页获取用户封装列表（仅管理员）
      *
-     * @param userQueryRequest 查询请求参数
+     * @param userQueryRequest 查询请求新参数
      */
     @PostMapping("/list/page/vo")
     @AuthCheck(mustRole = UserConstant.ADMIN_ROLE)
