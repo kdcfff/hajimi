@@ -3,10 +3,14 @@ package com.hajimi.yupicturebackend.service;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.itkd.picture.model.dto.picture.*;
-import com.itkd.picture.model.entity.Picture;
-import com.itkd.picture.model.entity.User;
-import com.itkd.picture.model.vo.PictureVO;
+import com.hajimi.yupicturebackend.model.dto.picture.PictureQueryRequest;
+import com.hajimi.yupicturebackend.model.dto.picture.PictureReviewRequest;
+import com.hajimi.yupicturebackend.model.dto.picture.PictureUploadByBatchRequest;
+import com.hajimi.yupicturebackend.model.dto.picture.PictureUploadRequest;
+import com.hajimi.yupicturebackend.model.entity.Picture;
+import com.hajimi.yupicturebackend.model.entity.User;
+import com.hajimi.yupicturebackend.model.vo.PictureVO;
+
 
 import javax.servlet.http.HttpServletRequest;
 
