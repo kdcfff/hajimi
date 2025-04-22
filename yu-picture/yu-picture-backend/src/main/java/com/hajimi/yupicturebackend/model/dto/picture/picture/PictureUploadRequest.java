@@ -1,4 +1,4 @@
-package com.hajimi.yupicturebackend.model.dto.picture;
+package com.hajimi.yupicturebackend.model.dto.picture.picture;
 
 import lombok.Data;
 
@@ -6,10 +6,10 @@ import java.io.Serializable;
 
 @Data
 public class PictureUploadRequest implements Serializable {
-
-    /**
-     * 图片 id（用于修改）
-     */
+  
+    /**  
+     * 图片 id（用于修改）  
+     */  
     private Long id;
 
     private String fileUrl;
@@ -21,5 +21,5 @@ public class PictureUploadRequest implements Serializable {
      */
     private String picName;
 
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;  
 }
