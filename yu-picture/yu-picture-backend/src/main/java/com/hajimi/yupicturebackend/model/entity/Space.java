@@ -16,43 +16,98 @@ public class Space implements Serializable {
     /**
      * id
      */
-    @TableId(type = IdType.AUTO)
+    @TableId(type = IdType.ASSIGN_ID)
     private Long id;
 
     /**
-     * 空间名称
+     * 图片 url
      */
-    private String spaceName;
+    private String url;
 
     /**
-     * 空间级别：0-普通版 1-专业版 2-旗舰版
+     * 缩略图 url
      */
-    private Integer spaceLevel;
+    private String thumbnailUrl;
 
     /**
-     * 空间图片的最大总大小
+     * 图片名称
      */
-    private Long maxSize;
+    private String name;
 
     /**
-     * 空间图片的最大数量
+     * 简介
      */
-    private Long maxCount;
+    private String introduction;
 
     /**
-     * 当前空间下图片的总大小
+     * 分类
      */
-    private Long totalSize;
+    private String category;
 
     /**
-     * 当前空间下的图片数量
+     * 标签（JSON 数组）
      */
-    private Long totalCount;
+    private String tags;
+
+    /**
+     * 图片体积
+     */
+    private Long picSize;
+
+    /**
+     * 图片宽度
+     */
+    private Integer picWidth;
+
+    /**
+     * 图片高度
+     */
+    private Integer picHeight;
+
+    /**
+     * 图片宽高比例
+     */
+    private Double picScale;
+
+    /**
+     * 图片格式
+     */
+    private String picFormat;
+
+    /**
+     * 图片主色调
+     */
+    private String picColor;
 
     /**
      * 创建用户 id
      */
     private Long userId;
+
+    /**
+     * 空间 id
+     */
+    private Long spaceId;
+
+    /**
+     * 审核状态：0-待审核; 1-通过; 2-拒绝
+     */
+    private Integer reviewStatus;
+
+    /**
+     * 审核信息
+     */
+    private String reviewMessage;
+
+    /**
+     * 审核人 ID
+     */
+    private Long reviewerId;
+
+    /**
+     * 审核时间
+     */
+    private Date reviewTime;
 
     /**
      * 创建时间

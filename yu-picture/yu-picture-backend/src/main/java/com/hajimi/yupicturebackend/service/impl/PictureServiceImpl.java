@@ -16,7 +16,9 @@ import com.hajimi.yupicturebackend.manager.upload.UrlUploadImpl;
 import com.hajimi.yupicturebackend.mapper.PictureMapper;
 import com.hajimi.yupicturebackend.model.dto.picture.*;
 import com.hajimi.yupicturebackend.model.entity.Picture;
+import com.hajimi.yupicturebackend.model.entity.Space;
 import com.hajimi.yupicturebackend.model.entity.User;
+import com.hajimi.yupicturebackend.model.enums.PictureReviewStatusEnum;
 import com.hajimi.yupicturebackend.model.vo.PictureVO;
 import com.hajimi.yupicturebackend.model.vo.UserVO;
 import com.hajimi.yupicturebackend.service.PictureService;
@@ -25,6 +27,8 @@ import com.hajimi.yupicturebackend.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 
 import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
