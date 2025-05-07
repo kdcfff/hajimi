@@ -10,6 +10,7 @@ import com.hajimi.yupicturebackend.config.CosClientConfig;
 import com.hajimi.yupicturebackend.exception.BusinessException;
 import com.hajimi.yupicturebackend.exception.ErrorCode;
 import com.hajimi.yupicturebackend.manager.CosManager;
+import com.hajimi.yupicturebackend.model.dto.picture.UploadPictureResult;
 import com.qcloud.cos.model.PutObjectResult;
 import com.qcloud.cos.model.ciModel.persistence.CIObject;
 import com.qcloud.cos.model.ciModel.persistence.ImageInfo;

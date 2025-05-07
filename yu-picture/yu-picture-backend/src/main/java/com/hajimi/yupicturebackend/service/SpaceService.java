@@ -3,11 +3,9 @@ package com.hajimi.yupicturebackend.service;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.itkd.picture.model.dto.space.SpaceAddRequest;
-import com.itkd.picture.model.dto.space.SpaceQueryRequest;
-import com.itkd.picture.model.entity.Space;
-import com.itkd.picture.model.entity.User;
-import com.itkd.picture.model.vo.SpaceVO;
+import com.hajimi.yupicturebackend.model.entity.Space;
+import com.hajimi.yupicturebackend.model.vo.SpaceVO;
+
 
 import javax.servlet.http.HttpServletRequest;
 
